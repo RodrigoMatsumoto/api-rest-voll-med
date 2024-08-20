@@ -1,0 +1,20 @@
+### criar médicos
+POST http://localhost:8080/medicos
+Content-Type: application/json
+
+{
+  "nome": "Médico Teste 1",
+  "email": "medico.teste1@voll.med",
+  "crm": "111111",
+  "especialidade": "ORTOPEDIA",
+  "endereco": {
+    "logradouro": "rua 1",
+    "bairro": "bairro 1",
+    "cep": "11111111",
+    "cidade": "cidade 1",
+    "uf": "U1",
+    "numero": "1",
+    "complemento": "complemento 1"
+  }
+}
+###

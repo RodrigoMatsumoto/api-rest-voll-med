@@ -1,0 +1,20 @@
+### criar pacientes
+POST http://localhost:8080/pacientes
+Content-Type: application/json
+
+{
+  "nome": "Paciente Teste 1",
+  "email": "paciente.teste1@voll.med",
+  "telefone": "(11)11111-1111",
+  "cpf": "111.111.111-11",
+  "endereco": {
+    "logradouro": "rua 1",
+    "bairro": "bairro 1",
+    "cep": "11111111",
+    "cidade": "cidade 1",
+    "uf": "U1",
+    "numero": "1",
+    "complemento": "complemento 1"
+  }
+}
+###
