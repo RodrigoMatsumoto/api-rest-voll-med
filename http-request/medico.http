@@ -5,6 +5,7 @@ Content-Type: application/json
 {
   "nome": "Médico Teste 1",
   "email": "medico.teste1@voll.med",
+  "telefone": "(11)11111-1111",
   "crm": "111111",
   "especialidade": "ORTOPEDIA",
   "endereco": {
