@@ -18,4 +18,8 @@ Content-Type: application/json
     "complemento": "complemento 1"
   }
 }
+
+### listar médicos
+GET http://localhost:8080/medicos
+
 ###

@@ -17,4 +17,8 @@ Content-Type: application/json
     "complemento": "complemento 1"
   }
 }
+
+### listar pacientes
+GET http://localhost:8080/pacientes?size=10&page=0&sort=nome,desc
+
 ###
