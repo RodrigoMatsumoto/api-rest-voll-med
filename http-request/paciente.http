@@ -30,4 +30,7 @@ Content-Type: application/json
   "nome": "Paciente Teste 5"
 }
 
+### excluir pacientes
+DELETE http://localhost:8080/pacientes/5
+
 ###
