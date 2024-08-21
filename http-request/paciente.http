@@ -21,4 +21,13 @@ Content-Type: application/json
 ### listar pacientes
 GET http://localhost:8080/pacientes?size=10&page=0&sort=nome,desc
 
+### atualizar pacientes
+PUT http://localhost:8080/pacientes
+Content-Type: application/json
+
+{
+  "id": 5,
+  "nome": "Paciente Teste 5"
+}
+
 ###

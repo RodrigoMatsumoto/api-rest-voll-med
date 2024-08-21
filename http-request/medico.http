@@ -22,4 +22,13 @@ Content-Type: application/json
 ### listar médicos
 GET http://localhost:8080/medicos
 
+### atualizar médicos
+PUT http://localhost:8080/medicos
+Content-Type: application/json
+
+{
+  "id": 5,
+  "nome": "Médico Teste 5"
+}
+
 ###

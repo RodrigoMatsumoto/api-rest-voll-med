@@ -1,9 +1,6 @@
 package com.example.api_rest.controller;
 
-import com.example.api_rest.paciente.DadosCadastroPaciente;
-import com.example.api_rest.paciente.DadosListagemPaciente;
-import com.example.api_rest.paciente.Paciente;
-import com.example.api_rest.paciente.PacienteRepository;
+import com.example.api_rest.paciente.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -28,5 +25,12 @@ public class PacienteController {
   @GetMapping
   public Page<DadosListagemPaciente> listar(@PageableDefault(size = 5, sort = {"nome"}) Pageable paginacao) {
     return repository.findAll(paginacao).map(DadosListagemPaciente::new);
+  }
+  
+  @PutMapping
+  @Transactional
+  public void atualizar(@RequestBody @Valid DadosAtualizacaoPaciente dados) {
+    var paciente = repository.getReferenceById(dados.id());
+    paciente.atualizarInformacoes(dados);
   }
 }
