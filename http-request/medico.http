@@ -34,4 +34,7 @@ Content-Type: application/json
 ### excluir médicos
 DELETE http://localhost:8080/medicos/5
 
+### Detalhar médico
+GET http://localhost:8080/medicos/5
+
 ###

@@ -33,4 +33,7 @@ Content-Type: application/json
 ### excluir pacientes
 DELETE http://localhost:8080/pacientes/5
 
+### Detalhar paciente
+GET http://localhost:8080/pacientes/5
+
 ###
