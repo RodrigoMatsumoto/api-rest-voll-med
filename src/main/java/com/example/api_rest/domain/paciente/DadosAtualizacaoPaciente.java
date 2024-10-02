@@ -1,6 +1,6 @@
-package com.example.api_rest.paciente;
+package com.example.api_rest.domain.paciente;
 
-import com.example.api_rest.endereco.DadosEndereco;
+import com.example.api_rest.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 
 public record DadosAtualizacaoPaciente(

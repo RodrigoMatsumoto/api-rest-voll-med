@@ -1,6 +1,6 @@
 package com.example.api_rest.controller;
 
-import com.example.api_rest.medico.*;
+import com.example.api_rest.domain.medico.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

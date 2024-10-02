@@ -1,6 +1,6 @@
-package com.example.api_rest.paciente;
+package com.example.api_rest.domain.paciente;
 
-import com.example.api_rest.endereco.Endereco;
+import com.example.api_rest.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
